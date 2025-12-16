@@ -34,7 +34,7 @@ const products = [
   {
     name: "Ripe Tomatoes",
     emoji: "🍅",
-    image: "https://images.unsplash.com/photo-1546470427-227c7369a9b9?w=600",
+    image: "https://images.unsplash.com/photo-1592841200221-a6898f307baa?w=600",
     shortDesc: "Vine-ripened with deep red color and balanced acidity",
     fullDesc: "Vine-ripened, firm tomatoes with deep red color and balanced acidity, grown for superior taste and texture. Supplied to fresh produce markets, restaurants, and processing plants.",
     uses: ["Fresh produce markets", "Restaurants", "Paste production", "Canned goods"],

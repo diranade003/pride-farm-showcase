@@ -1,12 +1,12 @@
-import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 import { Leaf } from "lucide-react";
 
 const footerLinks = [
-  { label: "Home", href: "#home" },
-  { label: "About", href: "#about" },
-  { label: "Products", href: "#products" },
-  { label: "Services", href: "#services" },
-  { label: "Contact", href: "#contact" },
+  { label: "Home", href: "/" },
+  { label: "About", href: "/about" },
+  { label: "Products", href: "/products" },
+  { label: "Services", href: "/services" },
+  { label: "Contact", href: "/contact" },
 ];
 
 export const Footer = () => {
@@ -18,12 +18,12 @@ export const Footer = () => {
         <div className="grid md:grid-cols-3 gap-12 mb-12">
           {/* Brand */}
           <div>
-            <a href="#home" className="inline-flex items-center gap-2 mb-4">
+            <Link to="/" className="inline-flex items-center gap-2 mb-4">
               <Leaf className="w-6 h-6 text-accent" />
               <span className="font-display text-2xl font-bold">
                 Ade's Pride<span className="text-accent">.</span>
               </span>
-            </a>
+            </Link>
             <p className="text-background/70 text-sm leading-relaxed max-w-xs">
               Cultivating excellence in Nigerian agriculture. Premium produce 
               grown with pride and dedication.
@@ -36,12 +36,12 @@ export const Footer = () => {
             <ul className="space-y-3">
               {footerLinks.map((link) => (
                 <li key={link.label}>
-                  <a
-                    href={link.href}
+                  <Link
+                    to={link.href}
                     className="text-background/70 hover:text-accent transition-colors text-sm"
                   >
                     {link.label}
-                  </a>
+                  </Link>
                 </li>
               ))}
             </ul>
