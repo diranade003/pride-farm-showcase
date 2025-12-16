@@ -9,15 +9,21 @@ import { useToast } from "@/hooks/use-toast";
 const contactInfo = [
   {
     icon: MapPin,
-    label: "Location",
-    value: "Nigeria",
-    detail: "Registered Office",
+    label: "Farm & Business Address",
+    value: "5, Oremeji GRA",
+    detail: "Ondo City, Ondo State, Nigeria",
+  },
+  {
+    icon: Phone,
+    label: "Phone / WhatsApp",
+    value: "+234 703 114 8287",
+    detail: "Available for inquiries",
   },
   {
     icon: Clock,
     label: "Business Hours",
     value: "Mon - Sat: 8AM - 6PM",
-    detail: "Nigerian Time",
+    detail: "Nigerian Time (WAT)",
   },
 ];
 
@@ -61,8 +67,8 @@ export const ContactSection = () => {
             Let's Grow <span className="text-primary">Together</span>
           </h2>
           <p className="text-muted-foreground text-lg">
-            Interested in our produce or services? We'd love to hear from you. 
-            Reach out for inquiries, partnerships, or distribution opportunities.
+            Get in touch with us for inquiries about our fresh produce, agricultural services, 
+            partnership opportunities, or to visit our farm. We look forward to hearing from you!
           </p>
         </motion.div>
 
@@ -79,7 +85,8 @@ export const ContactSection = () => {
                 Contact Information
               </h3>
               <p className="text-muted-foreground mb-8">
-                Ade's Pride Farms Ltd. — Your trusted partner in Nigerian agriculture.
+                Ade's Pride Farms Ltd. — Your trusted partner in Nigerian agriculture. 
+                We welcome serious inquiries and potential partners.
               </p>
             </div>
 
@@ -111,15 +118,15 @@ export const ContactSection = () => {
               transition={{ duration: 0.5, delay: 0.6 }}
               className="mt-10 p-6 bg-card border border-border rounded-xl"
             >
-              <p className="text-xs text-muted-foreground uppercase tracking-wider mb-2">Registered with</p>
+              <p className="text-xs text-muted-foreground uppercase tracking-wider mb-2">Registered Business</p>
               <p className="font-display text-lg font-semibold text-foreground">
                 Corporate Affairs Commission
               </p>
               <p className="text-sm text-muted-foreground mt-1">
                 RC Number: 9035266
               </p>
-              <p className="text-xs text-muted-foreground mt-1">
-                Incorporated: November 30, 2025
+              <p className="text-xs text-muted-foreground mt-3">
+                Ade's Pride Farms Ltd is a registered entity with the Corporate Affairs Commission of Nigeria.
               </p>
             </motion.div>
           </motion.div>
@@ -132,6 +139,7 @@ export const ContactSection = () => {
             className="lg:col-span-3"
           >
             <form onSubmit={handleSubmit} className="bg-card border border-border rounded-2xl p-8 shadow-soft">
+              <h4 className="font-display text-xl font-semibold text-foreground mb-6">Send Us a Message</h4>
               <div className="grid sm:grid-cols-2 gap-6 mb-6">
                 <div>
                   <label htmlFor="name" className="block text-sm font-medium text-foreground mb-2">
@@ -166,7 +174,7 @@ export const ContactSection = () => {
                 <Input
                   id="subject"
                   name="subject"
-                  placeholder="How can we help?"
+                  placeholder="e.g., Produce Inquiry, Service Request, Partnership"
                   required
                   className="h-12"
                 />

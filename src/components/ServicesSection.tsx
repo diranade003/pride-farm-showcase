@@ -1,37 +1,37 @@
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
-import { Tractor, Factory, Truck, Handshake, Warehouse, Globe } from "lucide-react";
+import { Tractor, Factory, Truck, Handshake, Warehouse, Lightbulb } from "lucide-react";
 
 const services = [
   {
     icon: Tractor,
-    title: "Crop Production",
-    description: "Large-scale cultivation of peppers, tomatoes, maize, oil palm, cocoa, and other crops using modern farming techniques.",
+    title: "Crop Production & Farm Management",
+    description: "We offer full-scale farm setup and management for peppers, tomatoes, maize, and tree crops. Our service includes land preparation, modern irrigation solutions, integrated pest management (IPM), and harvest planning to maximize your yield and profitability.",
   },
   {
     icon: Factory,
-    title: "Processing & Packaging",
-    description: "State-of-the-art facilities for processing, preservation, and packaging of agricultural produce.",
+    title: "Processing & Value Addition",
+    description: "Transform your raw produce into higher-value goods. Our facilities handle cleaning, sorting, drying, milling (for maize), and minimal processing (for peppers and tomatoes). We provide packaging solutions that meet market standards and extend shelf life.",
   },
   {
     icon: Warehouse,
-    title: "Storage Solutions",
-    description: "Proper storage facilities ensuring produce freshness and extended shelf life for market distribution.",
+    title: "Storage & Warehousing Solutions",
+    description: "Protect your harvest and stabilize market supply. We offer secure, climate-controlled storage for grains and ventilated storage for fresh produce to minimize post-harvest loss and help you sell when prices are most favorable.",
   },
   {
     icon: Truck,
-    title: "Distribution",
-    description: "Reliable logistics network for timely delivery of fresh produce to markets across Nigeria.",
+    title: "Distribution, Trade & Market Linkage",
+    description: "We connect produce from the farm to reliable buyers. Our logistics network ensures timely delivery to markets across Nigeria. We also act as agents for quality seeds, fertilizers, and other farm inputs.",
   },
   {
     icon: Handshake,
     title: "Trade & Export",
-    description: "Acting as agents and distributors for agricultural produce, seeds, fertilizers, and agro-allied products.",
+    description: "Acting as agents and distributors for agricultural produce, seeds, fertilizers, and agro-allied products. We facilitate connections between farmers and domestic and international markets for expanded business opportunities.",
   },
   {
-    icon: Globe,
-    title: "Agro Consultancy",
-    description: "Expert guidance on farming operations, equipment acquisition, and agricultural best practices.",
+    icon: Lightbulb,
+    title: "Agro-Consultancy",
+    description: "Get expert, tailored advice to improve your farming business. Our consultancy covers crop selection, soil health management, business planning, equipment sourcing, and guidance on implementing sustainable and climate-smart agricultural practices.",
   },
 ];
 
@@ -65,7 +65,7 @@ export const ServicesSection = () => {
           </h2>
           <p className="text-primary-foreground/80 text-lg">
             From farm to market, we provide end-to-end solutions for agricultural 
-            production, processing, and distribution.
+            production, processing, and distribution. Partner with us to grow your agricultural venture.
           </p>
         </motion.div>
 
