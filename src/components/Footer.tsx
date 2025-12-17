@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { Leaf } from "lucide-react";
+import logo from "@/assets/logo.png";
 
 const footerLinks = [
   { label: "Home", href: "/" },
@@ -18,11 +18,12 @@ export const Footer = () => {
         <div className="grid md:grid-cols-3 gap-12 mb-12">
           {/* Brand */}
           <div>
-            <Link to="/" className="inline-flex items-center gap-2 mb-4">
-              <Leaf className="w-6 h-6 text-accent" />
-              <span className="font-display text-2xl font-bold">
-                Ade's Pride<span className="text-accent">.</span>
-              </span>
+            <Link to="/" className="inline-block mb-4">
+              <img 
+                src={logo} 
+                alt="Ade's Pride Farms Ltd" 
+                className="h-16 w-auto"
+              />
             </Link>
             <p className="text-background/70 text-sm leading-relaxed max-w-xs">
               Cultivating excellence in Nigerian agriculture. Premium produce 

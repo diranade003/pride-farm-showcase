@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Link, useLocation } from "react-router-dom";
+import logo from "@/assets/logo.png";
 
 const navItems = [
   { label: "Home", href: "/" },
@@ -42,13 +43,12 @@ export const Header = () => {
       <div className="container mx-auto px-4 md:px-8">
         <nav className="flex items-center justify-between">
           {/* Logo */}
-          <Link
-            to="/"
-            className={`font-display text-xl md:text-2xl font-bold transition-colors duration-300 ${
-              showDarkText ? "text-primary" : "text-background"
-            }`}
-          >
-            Ade's Pride<span className="text-accent">.</span>
+          <Link to="/" className="flex items-center">
+            <img 
+              src={logo} 
+              alt="Ade's Pride Farms Ltd" 
+              className="h-10 md:h-12 w-auto"
+            />
           </Link>
 
           {/* Desktop Navigation */}
