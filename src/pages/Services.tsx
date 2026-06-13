@@ -5,6 +5,7 @@ import { Sprout, Factory, Warehouse, Truck, Globe, BookOpen } from "lucide-react
 import heroFarm from "@/assets/hero-farm.jpg";
 import storageWarehouse from "@/assets/storage-warehouse.jpg";
 import distributionLogistics from "@/assets/distribution-logistics.jpg";
+import exportTrade from "@/assets/export-trade.jpg";
 
 const services = [
   {
@@ -80,7 +81,7 @@ const services = [
       "Logistics coordination",
       "Buyer verification services",
     ],
-    image: "https://images.unsplash.com/photo-1494412574643-ff11b0a5c1c3?w=600",
+    image: exportTrade,
   },
   {
     icon: BookOpen,
