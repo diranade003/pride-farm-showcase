@@ -26,7 +26,7 @@ const products = [
   {
     name: "Premium Cocoa Beans",
     emoji: "🍫",
-    image: "https://images.unsplash.com/photo-1606312619070-d48b4c652a52?w=600",
+    image: nigerianCocoa,
     shortDesc: "Carefully fermented and sun-dried for rich flavor",
     fullDesc: "Carefully fermented and sun-dried cocoa beans from select Nigerian cultivars, known for their rich, complex flavor profile and high butterfat content. Sourced directly from our partner farms.",
     uses: ["Export market", "Local chocolate processors", "Confectionery", "Beverages"],
