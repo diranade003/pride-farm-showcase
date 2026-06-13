@@ -3,6 +3,7 @@ import { Footer } from "@/components/Footer";
 import { motion } from "framer-motion";
 import { Sprout, Factory, Warehouse, Truck, Globe, BookOpen } from "lucide-react";
 import heroFarm from "@/assets/hero-farm.jpg";
+import storageWarehouse from "@/assets/storage-warehouse.jpg";
 
 const services = [
   {
@@ -48,7 +49,7 @@ const services = [
       "24/7 security monitoring",
       "Flexible storage terms",
     ],
-    image: "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=600",
+    image: storageWarehouse,
   },
   {
     icon: Truck,
