@@ -81,7 +81,7 @@ const services = [
       "Logistics coordination",
       "Buyer verification services",
     ],
-    image: "https://images.unsplash.com/photo-1494412574643-ff11b0a5c1c3?w=600",
+    image: exportTrade,
   },
   {
     icon: BookOpen,
