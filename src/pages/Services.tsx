@@ -65,7 +65,7 @@ const services = [
       "Quality seed distribution",
       "Fertilizer & equipment supply",
     ],
-    image: "https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?w=600",
+    image: distributionLogistics,
   },
   {
     icon: Globe,
