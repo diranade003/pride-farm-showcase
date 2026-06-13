@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import { Sprout, Factory, Warehouse, Truck, Globe, BookOpen } from "lucide-react";
 import heroFarm from "@/assets/hero-farm.jpg";
 import storageWarehouse from "@/assets/storage-warehouse.jpg";
+import distributionLogistics from "@/assets/distribution-logistics.jpg";
 
 const services = [
   {
@@ -64,7 +65,7 @@ const services = [
       "Quality seed distribution",
       "Fertilizer & equipment supply",
     ],
-    image: "https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?w=600",
+    image: distributionLogistics,
   },
   {
     icon: Globe,
