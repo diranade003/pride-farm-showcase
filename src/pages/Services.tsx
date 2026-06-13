@@ -38,7 +38,7 @@ const services = [
       "Shelf-life extension techniques",
       "Market-standard compliance",
     ],
-    image: "https://images.unsplash.com/photo-1574323347407-f5e1ad6d020b?w=600",
+    image: processingValue,
   },
   {
     icon: Warehouse,
