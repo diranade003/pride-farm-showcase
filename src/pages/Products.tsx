@@ -2,6 +2,7 @@ import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { motion } from "framer-motion";
 import produceDisplay from "@/assets/produce-display.jpg";
+import nigerianCocoa from "@/assets/nigerian-cocoa.jpg";
 
 const products = [
   {
