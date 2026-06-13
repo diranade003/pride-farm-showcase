@@ -3,7 +3,6 @@ import { Footer } from "@/components/Footer";
 import { motion } from "framer-motion";
 import { Sprout, Factory, Warehouse, Truck, Globe, BookOpen } from "lucide-react";
 import heroFarm from "@/assets/hero-farm.jpg";
-import cropProduction from "@/assets/crop-production.jpg";
 import storageWarehouse from "@/assets/storage-warehouse.jpg";
 import distributionLogistics from "@/assets/distribution-logistics.jpg";
 import exportTrade from "@/assets/export-trade.jpg";
@@ -22,7 +21,7 @@ const services = [
       "Crop rotation strategies",
       "Yield monitoring & reporting",
     ],
-    image: cropProduction,
+    image: "https://images.unsplash.com/photo-1500937386664-56d1dfef3854?w=600",
   },
   {
     icon: Factory,
