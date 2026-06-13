@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import { Sprout, Factory, Warehouse, Truck, Globe, BookOpen } from "lucide-react";
 import heroFarm from "@/assets/hero-farm.jpg";
 import cropProduction from "@/assets/crop-production.jpg";
+import processingValue from "@/assets/processing-value.jpg";
 import storageWarehouse from "@/assets/storage-warehouse.jpg";
 import distributionLogistics from "@/assets/distribution-logistics.jpg";
 import exportTrade from "@/assets/export-trade.jpg";
