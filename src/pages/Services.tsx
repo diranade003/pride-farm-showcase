@@ -22,7 +22,7 @@ const services = [
       "Crop rotation strategies",
       "Yield monitoring & reporting",
     ],
-    image: "https://images.unsplash.com/photo-1500937386664-56d1dfef3854?w=600",
+    image: cropProduction,
   },
   {
     icon: Factory,
