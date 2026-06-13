@@ -54,7 +54,7 @@ const products = [
   {
     name: "Seasonal Vegetables",
     emoji: "🥬",
-    image: "https://images.unsplash.com/photo-1540420773420-3366772f4999?w=600",
+    image: nigerianVegetables,
     shortDesc: "Fresh, in-season vegetables grown to meet demand",
     fullDesc: "A rotating selection of fresh, in-season vegetables like okra, spinach, and eggplant, grown to meet immediate market demand and ensure a steady supply of nutritious produce.",
     uses: ["Local markets", "Restaurants", "Household consumption", "Food processing"],
