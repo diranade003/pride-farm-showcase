@@ -3,6 +3,7 @@ import { Footer } from "@/components/Footer";
 import { motion } from "framer-motion";
 import { Sprout, Factory, Warehouse, Truck, Globe, BookOpen } from "lucide-react";
 import heroFarm from "@/assets/hero-farm.jpg";
+import storageWarehouse from "@/assets/storage-warehouse.jpg";
 
 const services = [
   {
